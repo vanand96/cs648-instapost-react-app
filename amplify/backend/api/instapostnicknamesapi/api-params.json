@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/nicknames",
+            "lambdaFunction": "nicknamesfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/nicknames"
+        }
+    ],
+    "resourceName": "instapostnicknamesapi",
+    "apiName": "instapostnicknamesapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "nicknamesfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-instapostreactapp-local-105239-authRole",
+        "unAuthRoleName": "amplify-instapostreactapp-local-105239-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "nicknamesfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

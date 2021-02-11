@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/hashtags",
+            "lambdaFunction": "hashtagsfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/hashtags"
+        }
+    ],
+    "resourceName": "instaposthashtagsapi",
+    "apiName": "instaposthashtagsapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "hashtagsfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-instapostreactapp-local-105239-authRole",
+        "unAuthRoleName": "amplify-instapostreactapp-local-105239-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "hashtagsfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

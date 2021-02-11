@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/service-calls",
+            "lambdaFunction": "servicecallsfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/service-calls"
+        }
+    ],
+    "resourceName": "instapostservicecallsapi",
+    "apiName": "instapostservicecallsapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "servicecallsfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-instapostreactapp-local-105239-authRole",
+        "unAuthRoleName": "amplify-instapostreactapp-local-105239-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "servicecallsfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
