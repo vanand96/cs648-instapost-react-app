@@ -35,4 +35,4 @@ To run the project, run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-A sample screen of the UI is available [here](https://github.com/vanand96/cs648-instapost-react-app/public/instapost-ui.jpg).
+A sample screen of the UI is available [here](https://github.com/vanand96/cs648-instapost-react-app/blob/main/public/instapost-ui.jpg).
