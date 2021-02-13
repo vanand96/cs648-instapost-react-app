@@ -69,7 +69,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-instapostreactapp-local-105239-deployment",
-          "S3Key": "amplify-builds/servicecallsfunction-74475a4f2f65464e6d35-build.zip"
+          "S3Key": "amplify-builds/servicecallsfunction-6447756a335533436f59-build.zip"
         }
       }
     },
