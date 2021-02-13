@@ -38,7 +38,6 @@ app.get("/hashtags", function (req, res) {
   instance
     .get(apiUrl)
     .then((response) => {
-      console.log(response);
       res.json({ hashtags: response.data });
     })
     .catch((err) => res.json({ error: err }));

@@ -17,7 +17,6 @@ const App = () => {
     const data = await API.get("instapostservicecallsapi", `/service-calls`);
     updateServiceCalls(data.service_calls_count["service-calls"]);
     setLoading(true);
-    console.log(data.service_calls_count["service-calls"]);
   }
 
   // Define function to call nick names API
@@ -25,7 +24,6 @@ const App = () => {
     const data = await API.get("instapostnicknamesapi", `/nicknames`);
     updateNicknames(data.nicknames.nicknames);
     setLoading(true);
-    console.log(data);
   }
 
   // Create a json object for the nick names
@@ -39,7 +37,6 @@ const App = () => {
     const data = await API.get("instaposthashtagsapi", `/hashtags`);
     updateHashtags(data.hashtags.hashtags);
     setLoading(true);
-    console.log(data.hashtags.hashtags);
   }
 
   // Create a json object for the hash tags

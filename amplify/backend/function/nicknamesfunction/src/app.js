@@ -38,7 +38,6 @@ app.get("/nicknames", function (req, res) {
   instance
     .get(apiUrl)
     .then((response) => {
-      console.log(response);
       res.json({ nicknames: response.data });
     })
     .catch((err) => res.json({ error: err }));

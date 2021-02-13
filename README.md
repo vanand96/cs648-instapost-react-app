@@ -26,6 +26,11 @@ This project executes APIs against [insta-post-app](https://bismarck.sdsu.edu/ap
 - react-bootstrap-table-next
 - react-bootstrap-table2-paginator
 
+## Other npm packages installed are
+
+- aws-amplify
+- axios
+
 [BASE_URL](https://bismarck.sdsu.edu/api/instapost-query) enviorment variable needs to be set on the lamda functions to run this project
 
 To run the project, run:

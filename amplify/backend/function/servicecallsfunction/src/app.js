@@ -38,7 +38,6 @@ app.get("/service-calls", function (req, res) {
   instance
     .get(apiUrl)
     .then((response) => {
-      console.log(response);
       res.json({ service_calls_count: response.data });
     })
     .catch((err) => res.json({ error: err }));
